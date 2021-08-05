@@ -76,7 +76,7 @@ class ServiceProvider extends BaseServiceProvider
 
         $this->app->singleton(TemporaryDirectories::class, function () {
             return new TemporaryDirectories(
-                $this->app['config']->get('laravel-ffmpeg.temporary_files_root', sys_get_temp_dir()),
+                $this->app['config']->get('laravel-ffmpeg.temporary_files_root', sys_get_temp_dir())
             );
         });
 

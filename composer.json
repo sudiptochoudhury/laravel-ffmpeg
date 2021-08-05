@@ -1,6 +1,6 @@
 {
-    "name": "pbmedia/laravel-ffmpeg",
-    "description": "FFMpeg for Laravel",
+    "name": "sudiptochoudhury/laravel-ffmpeg-php72",
+    "description": "FFMpeg for Laravel PHP 7.2",
     "keywords": [
         "pbmedia",
         "laravel",
@@ -11,17 +11,9 @@
         "pascal baljet media",
         "pascalbaljetmedia"
     ],
-    "homepage": "https://github.com/pascalbaljetmedia/laravel-ffmpeg",
+    "homepage": "https://github.com/sudiptochoudhury/laravel-ffmpeg",
     "license": "MIT",
     "type": "library",
-    "authors": [
-        {
-            "name": "Pascal Baljet",
-            "email": "pascal@protone.media",
-            "homepage": "https://protone.media",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": "^7.3|^8.0",
         "evenement/evenement": "^3.0",
